@@ -1,0 +1,8 @@
+api_version: 0
+ensemble: test_ensemble
+handlers:
+- dir: /data
+  url: /
+name: pydap-test
+root_url: http://localhost:8001
+version: 0
