@@ -10,4 +10,4 @@ RUN pip install -U pip && \
 	
 EXPOSE 8001
 
-CMD python /usr/local/lib/python2.7/dist-packages/pydap/wsgi/app.py --ip 0.0.0.0 ./pydap_config.yaml
+CMD python wsgi.py -p 8001 -i 0.0.0.0 -c pydap_config.yaml

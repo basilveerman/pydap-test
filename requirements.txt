@@ -2,5 +2,4 @@ pydap-pdp==3.2.4
 pydap.handlers.hdf5==0.5.1
 pydap.responses.netcdf==0.5.1
 pydap.responses.html==0.3
-werkzeug
-docopt
+Flask
